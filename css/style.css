@@ -1,8 +1,34 @@
 /* INIZIO REGOLE GENERICHE */
 body {
   font-family: 'Roboto', sans-serif;
+  padding-top: 70px;
 }
 img {
   max-width: 100%;
 }
+a {
+  color: inherit;
+}
 /* FINE REGOLE GENERICHE */
+
+.debug {
+  border: 2px solid red;
+  background-color: pink;
+}
+.debug2 {
+  border: 2px solid blu;
+  background-color: lightgray;
+}
+/* INIZIO HEADER */
+.ms_burger_menu {
+  font-size: 25px;
+  line-height: 64px;
+  color: #2485fd;
+}
+.ms_menu {
+  text-align: right;
+  display: inline-block;
+  line-height: 64px;
+  color: #031b4e;
+}
+/* FINE HEADER */
