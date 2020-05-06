@@ -11,6 +11,7 @@ a {
 }
 /* FINE REGOLE GENERICHE */
 
+/* Inizio debug */
 .debug {
   border: 2px solid red;
   background-color: pink;
@@ -19,6 +20,8 @@ a {
   border: 2px solid blu;
   background-color: lightgray;
 }
+/* Fine debug */
+
 /* INIZIO HEADER */
 .ms_burger_menu {
   font-size: 25px;
@@ -26,9 +29,15 @@ a {
   color: #2485fd;
 }
 .ms_menu {
-  text-align: right;
-  display: inline-block;
   line-height: 64px;
   color: #031b4e;
 }
+.ms_menu_center {
+    float: left;
+}
+.ms_menu_right {
+    float: right;
+}
+
+
 /* FINE HEADER */
