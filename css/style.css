@@ -2,9 +2,12 @@
 body {
   font-family: 'Roboto', sans-serif;
   padding-top: 70px;
+  min-width: 320px;
 }
 img {
   max-width: 100%;
+  height: auto;
+  display: block;
 }
 a {
   color: inherit;
@@ -23,6 +26,13 @@ a {
 /* Fine debug */
 
 /* INIZIO HEADER */
+.logo {
+  line-height: 64px;
+}
+
+.logo img {
+  width: 80%;
+}
 .ms_burger_menu {
   font-size: 25px;
   line-height: 64px;
@@ -31,6 +41,8 @@ a {
 .ms_menu {
   line-height: 64px;
   color: #031b4e;
+  font-size: 15px;
+  font-weight: bold;
 }
 .ms_menu_center {
     float: left;
@@ -38,6 +50,9 @@ a {
 .ms_menu_right {
     float: right;
 }
-
+.ms_menu .ms_btn {
+ color: #2485fd;
+ border-color: #2485fd;
+}
 
 /* FINE HEADER */
