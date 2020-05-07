@@ -17,16 +17,24 @@ main a {
 /* FINE REGOLE GENERICHE */
 
 /* INIZIO REGOLE ELEMENTI RIPETUTI */
+/* Padding */
 .ms_section_padding {
   padding: 50px 0;
 }
 .ms_padding_top {
   padding-top: 30px;
 }
+/* Fine padding */
+
+/* Sezioni */
 .ms_section_grey {
   background-color: #f3f5f9;
   color: #76819c;
   text-align: center;
+}
+.ms_section_grey h2,
+.ms_section_grey h4 {
+  color: #031b4e;
 }
 .ms_section_white {
   color: #76819c;
@@ -39,6 +47,50 @@ main a {
 .large_text {
   font-size: 20px;
 }
+/* Fine sezioni */
+
+/* Carosello */
+.ms_carousel {
+  width: 60%;
+  margin: auto;
+  position: relative;
+}
+.ms_carousel_left {
+  position: absolute;
+  left: -50px;
+  top: 50%;
+  font-size: 50px;
+  color: #76819c;
+}
+.ms_carousel_right {
+  position: absolute;
+  right: -50px;
+  top: 50%;
+  font-size: 50px;
+  color: #031b4e;
+}
+.ms_carousel_circles {
+  color: #2485fd;
+}
+.ms_carousel_circles i {
+  margin: 0 3px;
+}
+@media screen and (max-width: 991px) {
+  .ms_carousel_left,
+  .ms_carousel_right {
+    display: none;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .ms_carousel {
+    margin-top: 100px;
+  }
+  .ms_carousel_circles {
+    margin-top: 100px;
+  }
+}
+/* Fine carosello */
+
 /* FINE REGOLE ELEMENTI RIPETUTI */
 
 /* Inizio debug */
@@ -47,7 +99,7 @@ main a {
   background-color: pink;
 }
 .debug2 {
-  border: 2px solid blu;
+  border: 2px solid blue;
   background-color: lightgray;
 }
 /* Fine debug */
@@ -162,4 +214,5 @@ main a {
   }
 }
 /* Fine configuration */
+
 /* FINE SEZIONI MAIN */
