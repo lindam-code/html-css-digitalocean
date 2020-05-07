@@ -56,8 +56,12 @@ main a {
 .navbar {
   background-color: #fff;
 }
-.logo img {
+.logo {
   line-height: 64px;
+}
+.logo img {
+  width: auto;
+  height: 30px;
 }
 .ms_burger_menu {
   font-size: 25px;
@@ -151,6 +155,11 @@ main a {
 }
 .ms_configuration_list li {
   margin: 15px 0;
+}
+@media screen and (max-width: 991px) {
+  .ms_configuration_list {
+    margin-left: 0;
+  }
 }
 /* Fine configuration */
 /* FINE SEZIONI MAIN */
