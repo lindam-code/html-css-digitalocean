@@ -125,5 +125,10 @@ main a {
 .ms_customer_logo li img {
   vertical-align: middle;
 }
+@media screen and (max-width: 991px) {
+  .ms_customer_logo li {
+    width: calc(90%/2);
+  }
+}
 /* Fine customer */
 /* FINE SEZIONI MAIN */
