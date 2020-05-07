@@ -271,6 +271,25 @@ margin-top: 25px;
   font-weight: bold;
   color: #2485fd;
 }
-
 /* Fine started now */
 /* FINE SEZIONI MAIN */
+
+/* INIZIO FOOTER */
+footer {
+  background-color: #031c4e;
+  color: #7a859d;
+  padding: 70px 0;
+}
+.ms_menu_footer li:first-child {
+  font-weight: bold;
+  color: #fff;
+}
+.ms_made_footer {
+  color: #4d5d7e;
+}
+@media screen and (max-width: 991px) {
+  .ms_menu_footer {
+    margin-top: 25px;
+  }
+}
+/* FINE FOOTER */
