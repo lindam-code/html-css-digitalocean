@@ -44,6 +44,11 @@ main a {
 .ms_section_white h4 {
   color: #031b4e;
 }
+.ms_section_blue {
+  background-image: linear-gradient(#0047c5, #001e99);
+  color: white;
+  text-align: center;
+}
 .large_text {
   font-size: 20px;
 }
@@ -214,5 +219,29 @@ main a {
   }
 }
 /* Fine configuration */
+
+/* Inizio worldwide */
+.ms_worldwide_row {
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+  font-size: 12px;
+  text-align: left;
+  line-height: 35px;
+}
+.ms_abbreviation {
+  display: inline-block;
+  width: 15%;
+  text-transform: uppercase;
+}
+.ms_city_state {
+  display: inline-block;
+  width: 60%;
+}
+@media screen and (max-width: 1199px) {
+  .ms_worldwide_margin_top {
+    margin-top: 50px;
+  }
+}
+/* Fine worldwide */
 
 /* FINE SEZIONI MAIN */
