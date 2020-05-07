@@ -20,10 +20,24 @@ main a {
 .ms_section_padding {
   padding: 50px 0;
 }
-.ms_primary_grey {
+.ms_padding_top {
+  padding-top: 30px;
+}
+.ms_section_grey {
   background-color: #f3f5f9;
   color: #76819c;
   text-align: center;
+}
+.ms_section_white {
+  color: #76819c;
+  text-align: center;
+}
+.ms_section_white h2,
+.ms_section_white h4 {
+  color: #031b4e;
+}
+.large_text {
+  font-size: 20px;
 }
 /* FINE REGOLE ELEMENTI RIPETUTI */
 
@@ -80,9 +94,6 @@ main a {
 .ms_teaser h1 {
   font-size: 50px;
 }
-.ms_teaser p {
-  font-size: 25px;
-}
 .ms_form {
   background: #fff;
   border-radius: 5px;
@@ -120,15 +131,26 @@ main a {
 
 /* Inizio customer */
 .ms_customer_logo li {
-  width: calc(90%/6);
+  width: calc(98%/6);
 }
 .ms_customer_logo li img {
   vertical-align: middle;
 }
 @media screen and (max-width: 991px) {
   .ms_customer_logo li {
-    width: calc(90%/2);
+    width: calc(98%/2);
   }
 }
 /* Fine customer */
+
+/* Inizio configuration */
+.ms_configuration_list {
+  border-left: 1px solid;
+  margin-left: 150px;
+  padding-left: 5px;
+}
+.ms_configuration_list li {
+  margin: 15px 0;
+}
+/* Fine configuration */
 /* FINE SEZIONI MAIN */
