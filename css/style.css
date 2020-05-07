@@ -7,16 +7,23 @@ body {
 img {
   max-width: 100%;
   height: auto;
-  display: block;
 }
 a {
   color: inherit;
 }
+main a {
+  color: #2485fd;
+}
 /* FINE REGOLE GENERICHE */
 
 /* INIZIO REGOLE ELEMENTI RIPETUTI */
-section {
+.ms_section_padding {
   padding: 50px 0;
+}
+.ms_primary_grey {
+  background-color: #f3f5f9;
+  color: #76819c;
+  text-align: center;
 }
 /* FINE REGOLE ELEMENTI RIPETUTI */
 
@@ -63,7 +70,7 @@ section {
 
 /* INIZIO SEZIONI MAIN */
 /* Inizio jumbotron */
-.ms_jumbo {
+#ms_jumbo {
   background-image: url("../img/bg-home-1-d54581d7.jpg");
   background-size: cover;
 }
@@ -106,8 +113,17 @@ section {
   font-weight: bold;
 }
 .ms_form p a {
-  color: #2485fd;
   text-decoration: underline;
 }
 /* Fine jumbotron */
+
+
+/* Inizio customer */
+.ms_customer_logo li {
+  width: calc(90%/6);
+}
+.ms_customer_logo li img {
+  vertical-align: middle;
+}
+/* Fine customer */
 /* FINE SEZIONI MAIN */
