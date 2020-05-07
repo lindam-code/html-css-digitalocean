@@ -33,9 +33,12 @@ main a {
   text-align: center;
 }
 .ms_section_grey h2,
-.ms_section_grey h4 {
+.ms_section_grey h4,
+.ms_section_grey h5,
+.ms_section_grey h6 {
   color: #031b4e;
 }
+
 .ms_section_white {
   color: #76819c;
   text-align: center;
@@ -86,14 +89,7 @@ main a {
     display: none;
   }
 }
-@media screen and (max-width: 1199px) {
-  .ms_carousel {
-    margin-top: 100px;
-  }
-  .ms_carousel_circles {
-    margin-top: 100px;
-  }
-}
+
 /* Fine carosello */
 
 /* FINE REGOLE ELEMENTI RIPETUTI */
@@ -220,6 +216,17 @@ main a {
 }
 /* Fine configuration */
 
+/* Inizio developers carousel */
+@media screen and (max-width: 1199px) {
+  #developers .ms_carousel {
+    margin-top: 100px;
+  }
+  #developers .ms_carousel_circles {
+    margin-top: 100px;
+  }
+}
+/* Fine developers carousel */
+
 /* Inizio worldwide */
 .ms_worldwide_row {
   border-bottom: 1px solid;
@@ -243,5 +250,20 @@ main a {
   }
 }
 /* Fine worldwide */
+
+/* Inizio teams carousel */
+#teams .ms_carousel {
+  background-color: #fff;
+  padding: 50px 0;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+#teams .ms_carousel p {
+margin: 25px 0;
+}
+#teams .ms_carousel a {
+margin-top: 25px 0;
+}
+/* Fine teams carousel */
 
 /* FINE SEZIONI MAIN */
