@@ -176,6 +176,10 @@ main a {
   box-shadow: 1px 1px #edeced;
   color: #717171;
 }
+.ms_btn_signup img {
+  width: 25px;
+  float: left;
+}
 .ms_form p  {
   color: #031b4e;
   margin-top: 10px;
