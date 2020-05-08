@@ -297,3 +297,35 @@ footer {
   }
 }
 /* FINE FOOTER */
+
+/* Inizio chat */
+.ms_chat {
+  padding: 25px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.ms_chat_box {
+  background-color: #fff;
+}
+.ms_chat_box p {
+  color: #031b4e;
+}
+.ms_help_shark {
+  background-color: #006aff;
+  border-radius: 5px;
+  position: relative;
+}
+.ms_help_shark .ms_number_message {
+  background-color: red;
+  color: #fff;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  text-align: center;
+}
+/* Fine chat */
