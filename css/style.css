@@ -239,24 +239,14 @@ main a {
   text-align: left;
   line-height: 35px; */
 }
-@media screen and (max-width: 1199px) {
-  .ms_worldwide_margin_top {
-    margin-top: 50px;
-  }
-/* .ms_abbreviation {
-  display: inline-block;
-  width: 15%;
-  text-transform: uppercase;
-}
-.ms_city_state {
-  display: inline-block;
-  width: 60%;
+.ms_worldwide_col {
+  padding-left: 30px;
 }
 @media screen and (max-width: 1199px) {
   .ms_worldwide_margin_top {
     margin-top: 50px;
-  }
-} */
+   }
+}
 /* Fine worldwide */
 
 /* Inizio teams slider */
