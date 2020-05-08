@@ -232,12 +232,12 @@ main a {
 /* Inizio worldwide */
 .ms_worldwide_row {
   border-bottom: 1px solid;
-  padding-bottom: 5px;
+  /* padding-bottom: 5px;
   font-size: 12px;
   text-align: left;
-  line-height: 35px;
+  line-height: 35px; */
 }
-.ms_abbreviation {
+/* .ms_abbreviation {
   display: inline-block;
   width: 15%;
   text-transform: uppercase;
@@ -250,7 +250,7 @@ main a {
   .ms_worldwide_margin_top {
     margin-top: 50px;
   }
-}
+} */
 /* Fine worldwide */
 
 /* Inizio teams slider */
