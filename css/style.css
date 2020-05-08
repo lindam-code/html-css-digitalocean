@@ -300,13 +300,18 @@ footer {
 
 /* Inizio chat */
 .ms_chat {
+  z-index: 10;
   padding: 25px;
   position: fixed;
   bottom: 0;
   right: 0;
+  width: 100%;
 }
 .ms_chat_box {
   background-color: #fff;
+  height: 100px;
+  height: 80px;
+  padding-top: 8px;
 }
 .ms_chat_box p {
   color: #031b4e;
@@ -315,7 +320,14 @@ footer {
   background-color: #006aff;
   border-radius: 5px;
   position: relative;
+  width: 80px;
+  height: 80px;
+  padding-top: 8px;
 }
+.ms_help_shark img {
+  vertical-align: middle;
+}
+
 .ms_help_shark .ms_number_message {
   background-color: red;
   color: #fff;
